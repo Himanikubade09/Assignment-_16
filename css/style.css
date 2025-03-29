@@ -64,3 +64,27 @@ color:aliceblue;
 h3{
     justify-content: center;
 }
+
+.self-info{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: lavender;
+}
+
+.image{
+    border-radius: 0px;
+}
+
+.image:hover{
+    height: 250px;
+    transition: 1s;
+    box-shadow: 0 0 20px 20px white;
+}
+
+a{
+    padding-right: 15px;
+}
