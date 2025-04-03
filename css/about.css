@@ -1,0 +1,23 @@
+.self{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: lightsteelblue;
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image{
+    border-radius: 0px;
+}
+
+.image:hover{
+    height: 250px;
+    transition: 1s;
+    box-shadow: 0 0 20px 20px white;
+}
