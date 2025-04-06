@@ -36,3 +36,20 @@
     color: black;
     cursor: pointer;
 }
+.contact-{
+    border-radius: 30px;
+    width: 350px;
+    padding: 40px;
+}
+
+.header-img{
+    border-radius: 30px;
+    height: 150px;
+    width: 1240px;
+}
+
+.header-img:hover{
+    height: 180px;
+    width: 1300px;
+    transition: 1s;
+}
